@@ -1,0 +1,38 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+h4{
+    font-size: 17px;
+    color: orangered;
+}
+
+#room_name{
+  width: 60%;
+}
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+	margin-bottom: 30px;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+#logout{
+  float: right;
+  font-size: 20px;
+}
